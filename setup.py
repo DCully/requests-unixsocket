@@ -3,6 +3,7 @@
 from setuptools import setup
 
 setup(
-    setup_requires=['pbr'],
-    pbr=True,
+    name="requests_unixsocket",
+    version="0.2.0",
+    packages=["requests_unixsocket"],
 )
